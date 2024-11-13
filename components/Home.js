@@ -36,7 +36,7 @@ function Home() {
 
   useEffect(() => {
     console.log('Mount');
-    fetch('https://mymoviz-backend-6zjyayn8x-antoines-projects-71af7d74.vercel.app/movies')
+    fetch('https://mymoviz-backend-five-lemon.vercel.app/movies')
     .then(response => response.json())
     .then(data => {
       console.log(data)
